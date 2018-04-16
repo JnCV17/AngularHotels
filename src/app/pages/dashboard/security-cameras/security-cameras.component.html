@@ -1,0 +1,14 @@
+<nb-card size="xlarge">
+  <nb-card-header>
+    <div class="cameras-card-header">
+      <span class="cameras-card-title">Bienvenido!</span>
+    </div>
+  </nb-card-header>
+  <nb-card-body>
+    <div class="cameras single-view">
+      <div class="camera" [style.background-image]="'url(' + selectedCamera.source + ')'">
+        <span>{{ selectedCamera.title }}</span>
+      </div>
+    </div>
+  </nb-card-body>
+</nb-card>
