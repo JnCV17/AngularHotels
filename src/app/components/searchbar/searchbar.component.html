@@ -1,0 +1,19 @@
+<img class="banner" src="./assets/images/banner.jpg">
+<form  (ngSubmit)="filter()">
+  <div class="background">
+    <div class="container">
+      <p class="fontM">Utilice la barra de busqueda para encontrar el hotel de preferencia.</p>
+      <div class="row">
+        <div class="col-lg-10 marg">
+          <input name='nombreHotel' [(ngModel)]="nombreHotelBuscado" class="form-control" id="nombreHotel" placeholder="Ingrese el nombre del hotel">
+        </div>
+        <div class="col-lg-2 marg">
+          <input type="submit" name="Buscar" class="btn btn-primary button">
+        </div>
+      </div>
+      <br/>
+      <label class="fontWhite">{{mensaje}}</label>
+    </div>
+  </div>
+</form>
+<app-listhotels></app-listhotels>

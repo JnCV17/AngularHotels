@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+.banner{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.background{
+    background: #22373C;
+    width: 100%;
+    padding: 2%;
+    margin: 0;
+}
+
+.button{
+    width: 100%;
+}
+
+.fontM{
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+}
+
+.fontWhite{
+    font-family: 'Questrial', sans-serif;
+    font-size: 110%;
+    margin: 0;
+    color:white;
+}
