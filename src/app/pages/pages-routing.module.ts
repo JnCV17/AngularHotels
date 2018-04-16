@@ -14,9 +14,6 @@ const routes: Routes = [{
     path: 'ui-features',
     loadChildren: './ui-features/ui-features.module#UiFeaturesModule',
   }, {
-    path: 'components',
-    loadChildren: './components/components.module#ComponentsModule',
-  }, {
     path: 'forms',
     loadChildren: './forms/forms.module#FormsModule',
   }, {
