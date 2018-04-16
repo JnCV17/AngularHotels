@@ -7,14 +7,14 @@
           <div class="form-group row">
             <label for="inputEmail1" class="col-sm-3 col-form-label">Nombre</label>
             <div class="col-sm-9">
-              <input type="email" class="form-control" id="inputEmail1" placeholder="Nombre">
+              <input type="text" class="form-control" id="inputEmail1" placeholder="Nombre" [(ngModel)]="nombre"[ngModelOptions]="{standalone: true}">
             </div>
           </div>
 
           <div class="form-group row">
             <label for="inputPassword2" class="col-sm-3 col-form-label">Precio</label>
             <div class="col-sm-9">
-              <input type="password" class="form-control" id="inputPassword2" placeholder="Precio">
+              <input type="text" class="form-control" id="inputPassword2" placeholder="Precio" [(ngModel)]="precio" [ngModelOptions]="{standalone: true}">
             </div>
           </div>
 
@@ -47,7 +47,7 @@
 
           <div class="form-group row">
             <div class="offset-sm-3 col-sm-9">
-              <button type="submit" class="btn btn-primary">Registrar</button>
+              <button type="submit" class="btn btn-primary" (click)='addHotel()'>Registrar</button>
             </div>
           </div>
         </form>

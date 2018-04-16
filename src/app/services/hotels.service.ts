@@ -78,12 +78,12 @@ export class HotelService {
     return { hoteles: hotelesFiltrados, mensaje: mensaje, sizeH: hoteles.length };
   }
 
-  addNewHotel(nombre: string, precio: number, latitud: number, longitud: number) {
+  addNewHotel(nombre: string, precio: number, latitud: number, longitud: number, starRate:number) {
       let hotel: Hotel = {
         id: '',
         nombre: nombre,
         precio: precio,
-        rating: 0,
+        rating: starRate,
         latitud: latitud,
         longitud: longitud
       };

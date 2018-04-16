@@ -1,7 +1,7 @@
 import { APP_BASE_HREF } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NgModule } from '@angular/core';
+import { NgModule,CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { CoreModule } from './@core/core.module';
 import { HotelService } from './services/hotels.service';
@@ -34,6 +34,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     { provide: APP_BASE_HREF, useValue: '/' },
     HotelService,
   ],
+  schemas:  [ CUSTOM_ELEMENTS_SCHEMA ],
 })
 export class AppModule {
 }

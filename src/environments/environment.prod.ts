@@ -2,11 +2,11 @@ export const environment = {
   production: true,
 
     firebase: {
-    apiKey: "AIzaSyCdTZjfnE1p4X2P3RbOBOnCHvMWb2Pht7w",
-    authDomain: "angular-hotel-25c45.firebaseapp.com",
-    databaseURL: "https://angular-hotel-25c45.firebaseio.com",
-    projectId: "angular-hotel-25c45",
-    storageBucket: "angular-hotel-25c45.appspot.com",
-    messagingSenderId: "254752099376"
+    apiKey: "AIzaSyDEow54BRHm23CRoRd18_MBrEnRFo1w060",
+    authDomain: "hotels-781ca.firebaseapp.com",
+    databaseURL: "https://hotels-781ca.firebaseio.com",
+    projectId: "hotels-781ca",
+    storageBucket: "hotels-781ca.appspot.com",
+    messagingSenderId: "589194041420"
   }
 };
